@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Николаев](https://up.htmlacademy.ru/htmlcss/32/user/1894823).
-* Наставник: `Элла Сидорова`.
+* Наставник: [Элла Сидорова](https://htmlacademy.ru/profile/elsidora).
 
 ---
 
