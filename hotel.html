@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<header class="header">
+    <div class="header-top">
+      <nav class="header-navigaation">
+        <ul class="header-menu">
+          <li class="header-item"><a href="#" class="header-link">Главная</a></li>
+          <li class="header-item"><a href="#" class="header-link">О Седоне</a></li>
+          <li class="header-item"><a href="#" class="header-link">Гостиницы</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header-logo">
+        <span class="visibility-hidden">
+          Логотип сайта Седона
+        </span>
+      </a>
+      <div class="header-buttons">
+        <button class="btn-search">
+          <span class="visibility-hidden">
+            Кнопка поиска по сайту
+          </span>
+        </button>
+        <button class="btn-favourites">
+          <span class="visibility-hidden">
+            Кнопка добавление билетов в избразное
+          </span>
+        </button>
+        <button class="btn-booking">Хочу сюда!</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hotels">
+      <h3 class="hotels-title">Гостиницы Седоны</h3>
+      <div class="breadcrumbs-hotel">
+          <a href="#" class="breadcrambs-link">home</a>
+          <a href="#" class="breadcrambs-link">Гостиницы</a>
+      </div>
+            <div class="options-hotels">
+          <div class="infrastructure">
+              <span class="infrastructure-title">
+                Инфраструктура:
+              </span>
+              <p class="option-check">
+                <label for="swimming" class="swimming-label">
+                    <input type="checkbox" id="swimming">
+                    Бассейн
+                </label>
+              </p>
+              <p class="option-check">
+                <label for="parking" class="parking-label">
+                    <input type="checkbox" id="parking" checked>
+                    Парковка
+                </label>
+              </p>
+              <p class="option-check">
+                <label for="wifi" class="wifi-label">
+                    <input type="checkbox" id="wifi">
+                    Wi-Fi
+                </label>
+              </p>
+          </div>
+
+          <div class="housing">
+            <span class="hosting-title">
+                Тип жилья:
+              </span>
+              <p class="option-check">
+                <label for="hotel" class="hotel-label">
+                    <input type="radio" id="hotel">
+                    Гостиница
+                </label>
+              </p>
+              <p class="option-check">
+                <label for="motel" class="motel-label">
+                    <input type="radio" id="motel">
+                    Мотель
+                </label>
+              </p>
+              <p class="option-check">
+                <label for="apartments" class="apartments-label">
+                    <input type="radio" id="apartments">
+                    Апартаменты
+                </label>
+              </p>
+          </div>
+
+          <div class="hotels-conts">
+            <span class="hotels-title">
+                Стоимость, ₽:
+              </span>
+              <form class="hotel-conts">
+                <input type="number" id="before-const" placeholder="От">
+                <input type="number" id="after-const" placeholder="До">
+                <div class="btn-calculation">
+                    <button class="send-const">Применить</button>
+                <button type="reset" class="reset-const">Сбросить</button>
+            </div>
+            </form>
+            <input type="range" name="" id="">
+          </div>
+      </div>
+  </section>
+
+  <section class="hotels-list">
+      <div class="hotels-header">
+          <h4 class="hotels-title">
+            Найдено гостиниц: 38
+          </h4>
+          <select class="select-const"> <!--Supplement an id here instead of using 'name'-->
+            <option value="value1">Сначала дешевые</option>
+            <option value="value2">Значение 1</option>
+          </select>
+          <div class="hotels-views">
+            <button class="view-tile"></button>
+            <button class="view-big"></button>
+            <button class="view-list"></button>
+        </div>
+      </div>
+
+        <div class="hotels-select">
+            <div class="hotels-item">
+                <div class="hotel-image">
+                    <img src="#" alt="Фотография хостела">
+                </div>
+            <div class="hotel-description">
+                <p class="hotel-title">
+                    Amara Resort & Spa
+                </p>
+                <p class="type-hotel">Гостиница от 4000 ₽</p>
+                <button class="hotel-detalied">подробнее</button>
+                <button class="hotel-booking">В избранное</button>
+            </div>
+            <div class="hotel-ranting">
+                <span class="ranting">Рейтинг: 8,5</span>
+            </div>
+        </div>
+        <div class="hotels-item">
+            <div class="hotel-image">
+                <img src="#" alt="Фотография хостела">
+            </div>
+        <div class="hotel-description">
+            <p class="hotel-title">
+              Desert Quail Inn
+            </p>
+            <p class="type-hotel">Мотель От 3000 ₽</p>
+            <button class="hotel-detalied">подробнее</button>
+            <button class="hotel-booking">В избранное</button>
+        </div>
+        <div class="hotel-ranting">
+            <span class="ranting">Рейтинг: 8,9</span>
+        </div>
+    </div>
+    <div class="hotels-item">
+        <div class="hotel-image">
+            <img src="#" alt="Фотография хостела">
+        </div>
+    <div class="hotel-description">
+        <p class="hotel-title">
+            Amara Resort & Spa
+        </p>
+        <p class="type-hotel">Гостиница от 4000 ₽</p>
+        <button class="hotel-detalied">подробнее</button>
+        <button class="hotel-booking">В избранное</button>
+    </div>
+    <div class="hotel-ranting">
+        <span class="ranting">Рейтинг: 8,5</span>
+    </div>
+</div>
+<div class="hotels-item">
+    <div class="hotel-image">
+        <img src="#" alt="Фотография хостела">
+    </div>
+<div class="hotel-description">
+    <p class="hotel-title">
+        Amara Resort & Spa
+    </p>
+    <p class="type-hotel">Гостиница от 4000 ₽</p>
+    <button class="hotel-detalied">подробнее</button>
+    <button class="hotel-booking">В избранное</button>
+</div>
+<div class="hotel-ranting">
+    <span class="ranting">Рейтинг: 8,5</span>
+</div>
+</div>
+<div class="hotels-item">
+    <div class="hotel-image">
+        <img src="#" alt="Фотография хостела">
+    </div>
+<div class="hotel-description">
+    <p class="hotel-title">
+        Amara Resort & Spa
+    </p>
+    <p class="type-hotel">Гостиница от 4000 ₽</p>
+    <button class="hotel-detalied">подробнее</button>
+    <button class="hotel-booking">В избранное</button>
+</div>
+<div class="hotel-ranting">
+    <span class="ranting">Рейтинг: 8,5</span>
+</div>
+</div>
+<div class="hotels-item">
+    <div class="hotel-image">
+        <img src="#" alt="Фотография хостела">
+    </div>
+<div class="hotel-description">
+    <p class="hotel-title">
+        Amara Resort & Spa
+    </p>
+    <p class="type-hotel">Гостиница от 4000 ₽</p>
+    <button class="hotel-detalied">подробнее</button>
+    <button class="hotel-booking">В избранное</button>
+</div>
+<div class="hotel-ranting">
+    <span class="ranting">Рейтинг: 8,5</span>
+</div>
+</div>
+</div>
+<button class="loader-hotels">Загрузить еще</button>
+      </div>
+  </section>
+ 
+  <section class="news">
+    <h2 class="news-title">Подпишитесь на рассылку</h2>
+    <p class="news-subtitle">Только полезная информация и никакого спама,
+      честное бойскаутское!</p>
+      <form action="#" class="news-form">
+        <input type="email" class="input-email" placeholder="Ваш e-mail">
+        <button class="btn-news">Подписаться</button>
+      </form>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-social">
+      <a href="#" class="social-twitter">Twitter</a>
+      <a href="#" class="social-facebook">Facebook</a>
+      <a href="#" class="social-youtube">Youtube</a>
+    </div>
+    <a href="tel:+8128121212" class="footer-phone">+7 (812) 812-12-12</a>
+    <a href="https://htmlacademy.ru/" class="developer-footer">html Academy</a>
+  </footer>
+  
+</body>
+</html>
